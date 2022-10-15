@@ -9,7 +9,8 @@ body {
 .borderImg {
   background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/hr-img.png);
   background-repeat: repeat-x;
-  height: 15px;
+  /* background-size: auto 100%; */
+  height: 4px;
   width: 100%;
   }
 
@@ -83,13 +84,15 @@ body {
 
 .artTitleText h2 {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 0.3rem;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .artTitleText h3 {
   font-size: 13px;
   color: rgb(180, 180, 180);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .artPrint {
@@ -155,5 +158,9 @@ body {
   flex-direction: row;
   font-size: 24px;
   color: rgb(100, 100, 100);
-  width: 500px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0rem 5rem 1rem 0rem;
 }
+  
+  
