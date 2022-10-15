@@ -1,0 +1,159 @@
+body {
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+  min-width: 60rem;
+}
+
+/* Style for headder */
+.borderImg {
+  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/hr-img.png);
+  background-repeat: repeat-x;
+  height: 15px;
+  width: 100%;
+  }
+
+.header {
+  height: 5rem;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  align-items: center;
+
+}
+
+.titleLogo {
+  height: 5rem;
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  align-items: center; 
+  text-align: left;
+}
+
+.titleText {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: left; 
+  margin-left: 4px;
+}
+
+.titleText h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+.titleText h2 {
+  font-size: 12px;
+}
+.social ul {
+  display: flex;
+  flex-direction: row;
+  align-items: left; 
+  margin-right: 10px;
+}
+
+.social ul li {
+  padding-left: 2px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: left; 
+}
+
+/*Main*/
+
+/* article */
+.artTitleContainer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  align-items: center;
+}
+
+.artTitleText h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.artTitleText h3 {
+  font-size: 13px;
+  color: rgb(180, 180, 180);
+}
+
+.artPrint {
+  display: flex;
+  flex-direction: row;
+  align-items: left; 
+  align-self: flex-end;
+}
+
+.artPrint p {
+  font-size: 13px;
+  margin-left: 3px;
+  color: rgb(180, 180, 180);
+}
+
+.artMain {
+  border-bottom: 0.5rem;
+  border-bottom-style: ridge;
+}
+
+.artMain img{
+  width: 100%;
+  height: auto;
+}
+
+.artText {
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+  margin: 2rem 0px 2rem 0px
+}
+
+.artText p {
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+  margin: 25px 0px 25px 0px;
+  text-indent: 40px;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.imgContainer form {
+  position: absolute;
+  z-index: 1;
+  padding: 2.7rem 2rem 2rem 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.imgContainer img {
+  position: absolute;
+  z-index: 0;
+}
+
+#toggle:checked ~ .check {
+  text-decoration: line-through;
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  color: rgb(100, 100, 100);
+  width: 500px;
+}
